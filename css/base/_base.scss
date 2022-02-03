@@ -34,6 +34,13 @@ body {
   }
 }
 
+// change color of selected text
+
+::selection {
+  background-color: $color-primary;
+  color: $color-white;
+}
+
 button {
   font-family: 'latoregular', sans-serif;
 }
